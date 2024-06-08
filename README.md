@@ -7,7 +7,7 @@
 </div>
 
 <p align="center">
-  Python port of Micro-agent An AI agent that writes and fixes code for you.
+   An AI agent that writes and fixes code for you.
 </p>
 
 <p align="center">
@@ -194,6 +194,42 @@ All config options can be overridden as environment variables, for instance:
 ```bash
 MODEL=gpt-3.5-turbo micro-agent ./file-to-edit.ts -t "npm test"
 ```
+
+## Python Capabilities
+
+Micro Agent now supports Python! This new feature allows you to leverage the power of AI to write and fix Python code, making your development process faster and more efficient.
+
+### Installation
+
+To use the Python capabilities, you need to install the required Python dependencies. Run the following command in your terminal:
+
+```bash
+pip install -r requirements.txt
+```
+
+This will install all the necessary Python packages to get you started.
+
+### Usage Examples
+
+Here are some examples of how you can use Micro Agent's Python capabilities:
+
+#### Example 1: Fixing a Python Script
+
+```bash
+micro-agent fix-python ./your-script.py
+```
+
+This command will analyze your Python script and attempt to fix any errors or issues it finds.
+
+#### Example 2: Writing Python Code
+
+```bash
+micro-agent write-python "Create a Python function that calculates the factorial of a number"
+```
+
+Micro Agent will generate Python code based on your prompt, helping you to quickly create functional code snippets.
+
+For more detailed instructions and examples, please refer to the `python-usage.md` file.
 
 ## Contributing
 
