@@ -7,7 +7,7 @@
 </div>
 
 <p align="center">
-   An AI agent that writes and fixes code for you.
+  Python port of Micro-agent An AI agent that writes and fixes code for you.
 </p>
 
 <p align="center">
